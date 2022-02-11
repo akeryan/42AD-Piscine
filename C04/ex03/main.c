@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int ft_atoi(char *str);
+
+int main(int argc, char **argv)
+{
+	(void)argc;
+	printf("%d\n", ft_atoi(&argv[1][0]));
+
+	return (0);
+}
